@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div id="container">
+  <div id="container" style="background-color: #e2edfd;">
     <div id="tree"></div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -25,34 +25,86 @@
   <script>
     var tree = {
       0: { value: "Tree", parent: "" },
-      1: { value: "Jippaba", parent: "0" },
-      2: { value: "Damarsiba", parent: "1" },
-      3: { value: "Motiba", parent: "1" },
-      4: { value: "Kaamaba", parent: "2" },
-      5: { value: "Hanshaba", parent: "2" },
-      6: { value: "Mhonnaba", parent: "2" },
-      7: { value: "Vanshaba", parent: "2" },
-      8: { value: "Kashanaba", parent: "2" },
-      9: { value: "Bassiba", parent: "4" },
-      10: { value: "Detu bhua", parent: "4" },
-      11: { value: "Lachaba", parent: "4" },
-      12: { value: "Ramaji", parent: "4" },
-      13: { value: "Moduba", parent: "4" },
-      14: { value: "Ganga Ram Ba", parent: "9" },
-      15: { value: "Netaji", parent: "9" },
-      16: { value: "Khamaba", parent: "9" },
-      17: { value: "Chunaba Pal", parent: "13" },
-      18: { value: "Shantibai Pal", parent: "13" },
-      19: { value: "Babuba Pal", parent: "13" },
-      20: { value: "Hukmichand Pal", parent: "13" },
-      21: { value: "Suraj Pal", parent: "20" },
-      22: { value: "Tulsiram Pal", parent: "20" },
-      23: { value: "Jitesh Pal", parent: "20" },
-      24: { value: "Nayan Pal", parent: "21" },
-      25: { value: "Nidhi Pal", parent: "21" },
-      26: { value: "Naman Pal", parent: "22" },
-      27: { value: "Nimesh Pal", parent: "22" },
-      28: { value: "Yamini Pal", parent: "23" }
+      1: { value: "जीवाजी", parent: "0" },
+      2: { value: "डामर्सीजी", parent: "1" },
+      4: { value: "कम्माजी", parent: "2" },
+      5: { value: "हंशाजी", parent: "2" },
+      6: { value: "भोनाजी", parent: "2" },
+      7: { value: "रूपाजी", parent: "2" },
+      8: { value: "कशनाजी", parent: "2" },
+      9: { value: "घासीजी", parent: "4" },
+      10: { value: "लछाजी", parent: "4" },
+      11: { value: "रामाजी", parent: "4" },
+      12: { value: "मोडूजी", parent: "4" },
+      13: { value: "देवू भुवाजी", parent: "4" },
+      14: { value: "रुकी भुवाजी", parent: "4" },
+      15: { value: "गंगारामजी", parent: "9" },
+      16: { value: "छगनलालजी", parent: "9" },
+      17: { value: "खेमाजी", parent: "9" },
+      18: { value: "मांगी लालजी", parent: "10" },
+      19: { value: "रामचंद्र जी", parent: "10" },
+      20: { value: "भुवाजी", parent: "10" },
+      21: { value: "प्रभुलालजी", parent: "11" },
+      22: { value: "दोलत रामजी", parent: "11" },
+      23: { value: "रामचंद्रजी", parent: "11" },
+      24: { value: "मन्नालालजी", parent: "11" },
+      25: { value: "चुन्नीलालजी", parent: "12" },
+      26: { value: "शांति भुवाजी", parent: "12" },
+      27: { value: "बाबूलालजी", parent: "12" },
+      28: { value: "हुकमीचंदजी", parent: "12" },
+
+      //**********************************
+      29: { value: "उकारजी", parent: "5" },
+      30: { value: "जीवाजी", parent: "5" },
+      31: { value: "मोडी भुवाजी", parent: "5" },
+      32: { value: "धापू भुवाजी", parent: "5" },
+      33: { value: "गंगा भुवाजी", parent: "5" },
+      //**********************************
+      34: { value: "नारायणीजी", parent: "29" },
+      35: { value: "रामी भुवाजी", parent: "29" },
+      36: { value: "सुंदर भुवाजी", parent: "29" },
+      37: { value: "सीता भुवाजी", parent: "29" },
+      //**********************************
+      38: { value: "मुकुनजी", parent: "30" },
+      39: { value: "नंदू भुवाजी", parent: "30" },
+      40: { value: "गीता भुवाजी", parent: "30" },
+      41: { value: "रतन भुवाजी", parent: "30" },
+      42: { value: "तोरारामजी", parent: "30" },
+      43: { value: "कैलाशजी", parent: "30" },
+      //**********************************
+      42: { value: "Name", parent: "6" },
+      43: { value: "Name", parent: "6" },
+      //**********************************
+      44: { value: "उदाजी", parent: "7" },
+      45: { value: "धन्नाजी", parent: "7" },
+      46: { value: "गोपीजी", parent: "7" },
+      47: { value: "दल्लू भुवाजी", parent: "7" },
+      //**********************************
+      48: { value: "मदनजी", parent: "44" },
+      49: { value: "गंगा भुवाजी", parent: "44" },
+      50: { value: "नंदू भुवाजी", parent: "44" },
+      //**********************************
+      51: { value: "काँहाजी", parent: "45" },
+      52: { value: "बालूजी", parent: "45" },
+      53: { value: "सागरमलजी", parent: "45" },
+      54: { value: "रामलालजी", parent: "45" },
+      55: { value: "केसुरामजी", parent: "45" },
+      //**********************************
+      56: { value: "शांति भुवाजी", parent: "46" },
+      57: { value: "पन्ना लालजी", parent: "46" },
+      58: { value: "गीता भुवाजी", parent: "46" },
+      59: { value: "प्रभुलाल", parent: "46" },
+      60: { value: "गोटू", parent: "46" },
+      //**********************************
+      61: { value: "भँवरलालजी", parent: "8" },
+      62: { value: "सोहन भुवाजी", parent: "8" },
+      63: { value: "कंचन भुवाजी", parent: "8" },
+      //**********************************
+      64: { value: "भेरूलालजी(पाल साहब)", parent: "61" },
+      65: { value: "गोपालजी", parent: "61" },
+      66: { value: "मूलचंद जी", parent: "61" },
+      67: { value: "कवरी भुवाजी", parent: "61" },
+      68: { value: "मोहनी भुवाजी", parent: "61" },
     };
 
     TreeData(tree, "#tree");
