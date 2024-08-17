@@ -27,7 +27,7 @@
   position: absolute;
   top: 0;
   right: 50%;
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   width: 50%;
   height: 20px
 }
@@ -35,7 +35,7 @@
 .tree li::after {
   right: auto;
   left: 50%;
-  border-left: 1px solid black
+  border-left: 2px solid black
 }
 
 .tree li:only-child::after,
@@ -70,19 +70,19 @@
   position: absolute;
   top: 0;
   left: 50%;
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   width: 0;
   height: 20px
 }
 
 .tree li a {
-  border: 1px solid #f10a0a;
-  padding: 5px 10px;
+  border: 2px solid #123875;
+  padding: 10px 35px;
   text-decoration: none;
   color: black;
   font-family: arial, verdana, tahoma;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 900;
   display: inline-block;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -94,9 +94,9 @@
 
 .tree li a:hover,
 .tree li a:hover+ul li a {
-  background: #c8e4f8;
-  color: #000;
-  border: 1px solid #94a0b4
+  background: #123875;
+  color: #c8ddff;
+  border: 2px solid #123875;
 }
 
 .tree li a:hover+ul li::after,
