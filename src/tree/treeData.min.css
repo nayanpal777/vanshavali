@@ -3,7 +3,7 @@
 }
 
 .tree ul {
-  padding-top: 20px;
+  padding-top: 39px;
   position: relative;
   transition: all .5s;
   -webkit-transition: all .5s;
@@ -72,16 +72,17 @@
   left: 50%;
   border-left: 2px solid black;
   width: 0;
-  height: 20px
+  height: 39px
 }
 
 .tree li a {
-  border: 2px solid #123875;
+  border: 2px solid black;
   padding: 10px 35px;
   text-decoration: none;
-  color: black;
+  color: white;
+  background-color: #123875;
   font-family: arial, verdana, tahoma;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 900;
   display: inline-block;
   border-radius: 5px;
@@ -94,14 +95,14 @@
 
 .tree li a:hover,
 .tree li a:hover+ul li a {
-  background: #123875;
-  color: #c8ddff;
-  border: 2px solid #123875;
+  background-color: #6bf67d;
+  color: black;
+  border: 2px solid black;
 }
 
 .tree li a:hover+ul li::after,
 .tree li a:hover+ul li::before,
 .tree li a:hover+ul ul::before,
 .tree li a:hover+ul::before {
-  border-color: #94a0b4
+  border-color: black
 }

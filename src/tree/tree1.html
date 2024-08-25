@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TreeData.js</title>
+  <!--Optional-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!--Required-->
+  <link rel="stylesheet" href="treeData.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <h5><center> नोट - हमे खेद है की इसमें जानकारी के अभाव मे सभी नाम नही दे पा रहे है। <br> जिन भाईयो ने सहयोग किया उनका धन्यवाद।</center></h5>
+    <div id="tree"></div>
+    <a href="../../src/vanshavali.html">Back</a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="treeData.js"></script>
+  <script>
+    var tree = {
+      0: { value: "Tree", parent: "" },
+      1: { value: "भागचंदजी", parent: "0" },
+      2: { value: "छाजूजी", parent: "1" },
+      3: { value: "..", parent: "1" },
+      4: { value: "लालाजी", parent: "1" },
+      5: { value: "..", parent: "1" },
+      6: { value: "..", parent: "1" },
+      7: { value: "..", parent: "1" },
+      8: { value: "", parent: "" },
+      9: { value: "बोताजी", parent: "2" },
+      10: { value: "छोटूजी", parent: "9" },
+      11: { value: "उदाजी", parent: "9" },
+      12: { value: "बालूजी", parent: "10" },
+      13: { value: "नारायणजी", parent: "10" },
+      14: { value: "रमेशचंद्र", parent: "12" },
+      15: { value: "परमानंद", parent: "12" },
+      16: { value: "डामरसी", parent: "12" },
+      17: { value: "दर्गी भुवाजी", parent: "11" },
+      18: { value: "मेगाजी", parent: "4" },
+      19: { value: "लकमाजी", parent: "4" },
+      20: { value: "कारुजी", parent: "19" },
+      21: { value: "मोहनलाल", parent: "20" },
+      //*************************************
+      22: { value: "किरण", parent: "14" },
+      23: { value: "अन्चू", parent: "14" },
+      24: { value: "दशरथ", parent: "14" },
+      25: { value: "नवीन", parent: "14" },
+      26: { value: "अंगूर बाला", parent: "14" },
+      27: { value: "युवान", parent: "24" },
+      28: { value: "पवन", parent: "25" },
+      //*************************************
+      29: { value: "कृष्णा", parent: "15" },
+      30: { value: "विद्या", parent: "15" },
+      31: { value: "अनिल", parent: "15" },
+      32: { value: "सुनील", parent: "15" },
+      //**********************************
+      33: { value: "विकाश", parent: "16" },
+      34: { value: "काजल", parent: "16" },
+      35: { value: "सोनू", parent: "16" },
+      //**********************************
+      36: { value: "कला", parent: "12" },
+      37: { value: "गौतम (मन्नू)", parent: "12" },
+      //**********************************
+      38: { value: "आरती", parent: "37" },
+      39: { value: "कमल", parent: "37" },
+      40: { value: "सुशीला", parent: "13" },
+      41: { value: "मदन", parent: "13" },
+      42: { value: "कविता", parent: "13" },
+      43: { value: "जगदीश", parent: "13" },
+      44: { value: "प्रकाश", parent: "13" },
+      45: { value: "निर्मला", parent: "13" },
+      //**********************************
+      46: { value: "ध्रुविका", parent: "41" },
+      47: { value: "कृतिका", parent: "41" },
+      48: { value: "देवेंद्र", parent: "41" },
+      //**********************************
+      49: { value: "ग्रुवी", parent: "44" },
+      50: { value: "कस्तुरी भुवाजी", parent: "19" },
+      51: { value: "", parent: "" },
+      52: { value: "", parent: "" },
+      53: { value: "", parent: "" },
+      54: { value: "", parent: "" },
+      55: { value: "", parent: "" },
+      56: { value: "", parent: "" },
+      57: { value: "", parent: "" },
+      58: { value: "", parent: "" },
+      59: { value: "", parent: "" },
+      60: { value: "", parent: "" },
+      61: { value: "", parent: "" },
+      62: { value: "", parent: "" },
+      63: { value: "", parent: "" },
+      64: { value: "", parent: "" },
+      65: { value: "", parent: "" },
+      67: { value: "", parent: "" },
+    }
+    TreeData(tree, "#tree");
+  </script>
+</body>
+
+</html>
