@@ -79,8 +79,8 @@
   border: 2px solid black;
   padding: 10px 35px;
   text-decoration: none;
-  color: white;
-  background-color: #123875;
+  color: black;
+  background-color: #6bf67d;
   font-family: arial, verdana, tahoma;
   font-size: 15px;
   font-weight: 900;
@@ -95,7 +95,7 @@
 
 .tree li a:hover,
 .tree li a:hover+ul li a {
-  background-color: #6bf67d;
+  background-color: #8eb4ef;
   color: black;
   border: 2px solid black;
 }
