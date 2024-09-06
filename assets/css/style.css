@@ -1283,7 +1283,7 @@ section {
 
 .card-img-top {
   /* border-radius: 50%; */
-  width: 100%;
+  width: 80%;
   height: 65%;
   margin: auto;
   border-radius: 50%;
@@ -1376,4 +1376,11 @@ section {
 
 .stories_btn{
   margin-bottom: 30px !important;
+}
+
+#back_btn {
+  background-color: #0563bb;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
 }
