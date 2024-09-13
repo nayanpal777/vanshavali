@@ -110,10 +110,10 @@
 #tree_back_btn {
   background-color: #0563bb;
   color: white;
-  font-size: 18px;
-  padding: 5px;
+  font-size: 35px;
+  padding: 20px;
   position: fixed;
-  top: 90%;
+  top: 80%;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   text-decoration: none;
